@@ -7,7 +7,7 @@ import {ToggleTheme} from "../ToggleTheme";
 
 export const App = () => {
   const {selectedTheme} = useContext(GlobalContext);
-  const classList = cx(styles.main, selectedTheme !== "dark" ? styles.dark : styles.white);
+  const classList = cx(styles.main, selectedTheme === "dark" ? styles.dark : styles.white);
 
 
   return (

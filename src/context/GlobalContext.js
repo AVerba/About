@@ -2,7 +2,7 @@ import { createContext } from 'react';
 
 
 const GlobalContext = createContext({
-  selectedTheme: "white",
+  selectedTheme: "dark",
   setSelectedTheme: theme => {},
 });
 
