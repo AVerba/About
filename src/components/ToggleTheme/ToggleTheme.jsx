@@ -1,4 +1,3 @@
-import styles from './ToggleTheme.module.scss'
 import {useContext} from "react";
 import GlobalContext from "../../context/GlobalContext";
 
